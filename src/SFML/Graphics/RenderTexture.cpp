@@ -245,7 +245,7 @@ void sfRenderTexture_drawVertexBuffer(sfRenderTexture* renderTexture, const sfVe
 
 
 ////////////////////////////////////////////////////////////
-void sfRenderTexture_drawVertexBufferWithIndex(sfRenderTexture* renderTexture,
+void sfRenderTexture_drawVertexBufferRange(sfRenderTexture* renderTexture,
                                               const sfVertexBuffer* object, size_t firstVertex,
                                               size_t vertexCount, const sfRenderStates* states)
 {

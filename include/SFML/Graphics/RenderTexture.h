@@ -233,7 +233,7 @@ CSFML_GRAPHICS_API void sfRenderTexture_drawVertexBuffer(sfRenderTexture* render
 /// \param states        Render states to use for drawing
 ///
 ////////////////////////////////////////////////////////////
-CSFML_GRAPHICS_API void sfRenderTexture_drawVertexBufferWithIndex(sfRenderTexture* renderTexture,
+CSFML_GRAPHICS_API void sfRenderTexture_drawVertexBufferRange(sfRenderTexture* renderTexture,
                                                   const sfVertexBuffer* object, size_t firstVertex,
                                                   size_t vertexCount, const sfRenderStates* states);
 

@@ -476,7 +476,7 @@ CSFML_GRAPHICS_API void sfRenderWindow_drawVertexBuffer(sfRenderWindow* renderWi
 /// \param states       Render states to use for drawing
 ///
 ////////////////////////////////////////////////////////////
-CSFML_GRAPHICS_API void sfRenderWindow_drawVertexBufferWithIndex(sfRenderWindow* renderWindow,
+CSFML_GRAPHICS_API void sfRenderWindow_drawVertexBufferRange(sfRenderWindow* renderWindow,
                                                   const sfVertexBuffer* object, size_t firstVertex,
                                                   size_t vertexCount, const sfRenderStates* states);
 

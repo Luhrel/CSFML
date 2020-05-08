@@ -478,7 +478,7 @@ void sfRenderWindow_drawVertexBuffer(sfRenderWindow* renderWindow, const sfVerte
 
 
 ////////////////////////////////////////////////////////////
-void sfRenderWindow_drawVertexBufferWithIndex(sfRenderWindow* renderWindow,
+void sfRenderWindow_drawVertexBufferRange(sfRenderWindow* renderWindow,
                                               const sfVertexBuffer* object, size_t firstVertex,
                                               size_t vertexCount, const sfRenderStates* states)
 {
